@@ -22,6 +22,10 @@
 
     <div class="navbar">
 
+        <div class="navbar__s0">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
         <div class="navbar__s1">
             <img src="./images/Tripadvisor_icon.svg">
             <h1 class="navbar__s1__title">Tripadvisor</h1>
@@ -40,10 +44,9 @@
         </div>
 
         <div class="navbar__s4">
-            <button class="navbar__s4__b1">🌐 | INR</button>
+            <button class="navbar__s4__b1"><i class="fa-solid fa-globe" style="color: #0f0f10;"></i> | INR</button>
             <button class="navbar__s4__b2">Sign in</button>
         </div>
-
     </div>
 
     <!-- Categories -->
@@ -107,11 +110,12 @@
             <div class="international-four">
                 <img src="./images/it4.jpg">
                 <h1>Airlie Beach, Australia</h1>
+                <i class="fa-solid fa-circle-arrow-right fa-2xl" style="color: #070808;"></i>
             </div>
 
-            <div class="international-arrow">
+            <!-- <div class="international-arrow">
                 <img src="./images/right arrow.png">
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -120,7 +124,7 @@
 
     <div class="recent">
         <h2>Your recent searches</h2>
-        <div class="recent__button">
+        <div class="recent__container">
             <button><i class="fa-solid fa-location-dot" style="color: #050505;"></i>
                 <h4>Dubai</h4>
                 <p>Emirate of Dubai</p>
@@ -139,38 +143,42 @@
         <p>Book these experiences for a close-up look at Chennai (Madras).</p>
         <div class="chennai__container">
 
-            <div class="chennai-area">
+            <div class="chennai-one">
                 <img src="./images/ca1.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h3>Total Chennai city tour in Private car with guide & lunch by Wonder tours</h3>
                 <p>🟢🟢🟢🟢🟢 25</p>
                 <p>from ₹6,400 per adult</p>
             </div>
 
-            <div class="chennai-area">
+            <div class="chennai-two">
                 <img src="./images/ca2.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h3>Pondicherry day trip from Chennai by Wonder tours</h3>
                 <p>🟢🟢🟢🟢🟢 22</p>
                 <p>from ₹6,400 per adult</p>
             </div>
 
-            <div class="chennai-area">
+            <div class="chennai-three">
                 <img src="./images/ca3.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h3>Chennai Museum Walk by a Heritage Storyteller</h3>
                 <p>🟢🟢🟢🟢🟢 3</p>
                 <p>from ₹6,400 per adult</p>
             </div>
 
-            <div class="chennai-area">
+            <div class="chennai-four">
                 <img src="./images/ca4.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h3>Private Tour of Mahabalipuram from Chennai by car with guide and lunch</h3>
                 <p>🟢🟢🟢🟢🟢 163</p>
                 <p>from ₹6,400 per adult</p>
             </div>
 
-        </div>
+            <div class="chennai-arrow">
+                <img src="./images/right arrow.png">
+            </div>
 
-        <div class="chennai-arrow">
-            <img src="./images/right arrow.png">
         </div>
 
     </div>
@@ -201,10 +209,7 @@
             <div class="asian-four">
                 <img src="./images/a4.jpg">
                 <h1>Bali, Indonesia</h1>
-            </div>
-
-            <div class="asian-arrow">
-                <img src="./images/right arrow.png">
+                <i class="fa-solid fa-circle-arrow-right fa-2xl" style="color: #070808;"></i>
             </div>
 
         </div>
@@ -215,30 +220,35 @@
         <h2>More to explore</h2>
         <div class="explore__container">
 
-            <div class="explore-area">
+            <div class="explore-one">
                 <img src="./images/e1.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h4><a href="https://www.tripadvisor.com/Articles-lWoXu3ETbus0-Best_places_to_stargaze.html">11
                         best
                         places to stagaze around the world</a></h4>
             </div>
 
-            <div class="explore-area">
+            <div class="explore-two">
                 <img src="./images/e2.jpg">
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
                 <h4><a href="https://www.tripadvisor.com/Articles-lKpbXJjE4DLc-Bali_chefs_share_their_fave_spots.html">Bali
                         chefs share their top restaurants, spas, neighborhoods, and more</a></h4>
             </div>
 
-            <div class="explore-area">
+            <div class="explore-three">
                 <img src="./images/e3.jpg">
-                <h4><a href="https://www.tripadvisor.com/Articles-lhaTSoTRM1WU-Local_guide_to_bangkoks_galleries_and_bars.html">A
+                <i class="fa-regular fa-heart" style="color: #000000;"></i>
+                <h4><a
+                        href="https://www.tripadvisor.com/Articles-lhaTSoTRM1WU-Local_guide_to_bangkoks_galleries_and_bars.html">A
                         local's guide to bangkok's best art galleries, cocktail bars, and more</a></h4>
+            </div>
+
+            <div class="explore-arrow">
+                <img src="./images/right arrow.png">
             </div>
 
         </div>
 
-        <div class="explore-arrow">
-            <img src="./images/right arrow.png">
-        </div>
     </div>
 
     <!-- Gateway -->
@@ -296,16 +306,22 @@
             <div class="destination-four">
                 <img src="./images/d4.jpg">
                 <h1>Dubai, United Arab Emirates</h1>
+                <i class="fa-solid fa-circle-arrow-right fa-2xl" style="color: #070808;"></i>
             </div>
 
-        </div>
-
-        <div class="destination-arrow">
-            <img src="./images/right arrow.png">
         </div>
     </div>
 
     <!-- Traveller's Choice -->
+
+    <div class="travellersbest">
+        <div class="travellersbest__container">
+            <img src="./images/Tripadvisor yellow_icon.svg">
+            <h1>Travellers' Choice Best of the Best</h1>
+            <p>Our top 1% of places, stays, eats, and experiences—decided by you.</p>
+            <button>See the winners</button>
+        </div>
+    </div>
 
     <!-- Footer -->
 
@@ -358,14 +374,18 @@
         </div>
 
         <div class="footer__s3">
-            <a href="https://tripadvisor.mediaroom.com/in-terms-of-use">Terms of Use</a>
-            <a href="https://tripadvisor.mediaroom.com/in-privacy-policy">Privacy and Cookies Statement</a>
-            <a href="">Cookies consent</a>
-            <a href="https://www.tripadvisor.in/SiteIndex">Site Map</a> <br>
-            <a href="https://www.tripadvisor.in/pages/service_en.html">How the site works</a>
-            <a href="https://tripadvisor.mediaroom.com/IN-contact-us">Contact us</a>
-            <button>₹INR 🔻</button>
-            <button>India 🔻</button>
+            <div class="footer__s3__container">
+                <a href="https://tripadvisor.mediaroom.com/in-terms-of-use">Terms of Use</a>
+                <a href="https://tripadvisor.mediaroom.com/in-privacy-policy">Privacy and Cookies Statement</a>
+                <a href="">Cookies consent</a>
+                <a href="https://www.tripadvisor.in/SiteIndex">Site Map</a> <br>
+                <a href="https://www.tripadvisor.in/pages/service_en.html">How the site works</a>
+                <a href="https://tripadvisor.mediaroom.com/IN-contact-us">Contact us</a>
+            </div>
+            <div class="footer__s3__container1">
+                <button>₹INR <i class="fa-solid fa-caret-down" style="color: #090a0b;"></i></button>
+                <button>India <i class="fa-solid fa-caret-down" style="color: #090a0b;"></i></button>
+            </div>
         </div>
 
         <div class="footer__s4">
@@ -375,10 +395,12 @@
                 another country or region, please select
                 the appropriate version of Tripadvisor for your country or region in the drop-down menu. <a
                     href="">more</a></p>
-            <i class="fa-brands fa-facebook" style="color: #18191b;"></i>
-            <i class="fa-brands fa-twitter" style="color: #121212;"></i>
-            <i class="fa-brands fa-pinterest" style="color: #0a0a0b;"></i>
-            <i class="fa-brands fa-instagram" style="color: #0a0a0b;"></i>
+            <div class="footer__s4__container">
+                <i class="fa-brands fa-facebook" style="color: #18191b;"></i>
+                <i class="fa-brands fa-twitter" style="color: #121212;"></i>
+                <i class="fa-brands fa-pinterest" style="color: #0a0a0b;"></i>
+                <i class="fa-brands fa-instagram" style="color: #0a0a0b;"></i>
+            </div>
         </div>
 
     </div>
